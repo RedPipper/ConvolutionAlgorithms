@@ -5,12 +5,14 @@
 #include <fstream>
 #include <thread>
 #include <stdio.h>
-#include <math.h>
+#include <chrono>
+#include <cstring>
+#include <string>
 #define INPUT_N     10000
 #define INPUT_M     10000
 #define KERNEL_N    1000
 #define KERNEL_M    1000
-
+#define TEST_MODE
 int input_matrix[INPUT_N][INPUT_M];
 int i_n, i_m;
 int kernel[KERNEL_N][KERNEL_M];
@@ -70,7 +72,9 @@ void computeIndexedConv(int p){
             remaining--;
             flag = 1;
         }
+#ifndef TEST_MODE
         printf("Thread %d starts at %d,%d, kLine %d -- %d lines\n", i, startX, startY, kLine, lines_per_thread + flag);
+#endif
         threads[i] = thread(&computeIndexedConvThread, startX, startY, kLine, lines_per_thread + flag );
 
         int addP = (lines_per_thread + flag ) / k_n;
@@ -121,7 +125,9 @@ void computeLinedConv(int p){
             flag = 1;
             --remainder;
         }
+#ifndef TEST_MODE
         printf("Thread %d started between the lines %d and %d\n", i, startLine, startLine + lines_per_thread + flag);
+#endif
         //start thread
         threads[i] = thread(&computeLinedConvThread, startLine, startLine + lines_per_thread + flag);
         startLine = startLine + lines_per_thread + flag;
@@ -146,7 +152,9 @@ void computeColumnConv(int p){
             flag = 1;
             --remainder;
         }
+#ifndef TEST_MODE
         printf("Thread %d started between the columns %d and %d\n", i, startColumn, startColumn + columns_per_thread + flag);
+#endif
         //start thread
         threads[i] = thread(&computeColumnedConvThread, startColumn,  startColumn + columns_per_thread + flag);
         startColumn = startColumn + columns_per_thread + flag;
@@ -158,8 +166,8 @@ void computeColumnConv(int p){
 }
 
 int main(int argc, char** argv){
-
-    ifstream fin("/home/tefan/Facultate/Programare Paralela si Distribuita/Homework/ConvolutionAlgorithms/conv_algs_cpp/static_allocation/data.txt");
+    string file = argv[3];
+    ifstream fin(file);
 
     fin>>i_n>>i_m;
     for (int i = 0; i < i_n; ++i) {
@@ -175,8 +183,9 @@ int main(int argc, char** argv){
             fin>>kernel[i][j];
         }
     }
-    fin>>p;
+
     fin.close();
+    p = (int)strtol(argv[1], nullptr, 10);
     cout<<"------------------Read check-----------------\n";
     for (int i = 0; i < k_n; ++i) {
         for (int j = 0; j < k_m; ++j) {
@@ -184,16 +193,44 @@ int main(int argc, char** argv){
         }
         cout<<'\n';
     }
+#ifndef TEST_MODE
     cout<<"------------------Compute start--------------\n";
-//    computeIndexedConv(p);
-//    computeLinedConv(p);
-    computeColumnConv(p);
+#endif
+
+    chrono::time_point<chrono::high_resolution_clock> start_timer;
+    chrono::time_point<chrono::high_resolution_clock> end_timer;
+    if(strcmp(argv[2], "indexed") == 0){
+        start_timer = chrono::high_resolution_clock::now();
+        computeIndexedConv(p);
+        end_timer = chrono::high_resolution_clock::now();
+    }else if(strcmp(argv[2], "lined") == 0){
+        start_timer = chrono::high_resolution_clock::now();
+        computeLinedConv(p);
+        end_timer = chrono::high_resolution_clock::now();
+    }else if(strcmp(argv[2], "columned") == 0){
+        start_timer = chrono::high_resolution_clock::now();
+        computeColumnConv(p);
+        end_timer = chrono::high_resolution_clock::now();
+    }else{
+        cout<<"ERROR, NO SUCH ALGORITHM FOUND\n";
+        return 1;
+    }
+
+#ifndef TEST_MODE
     cout<<'\n';
+    cout<<"------------------Compute end----------------\n";
+
     for (int i = 0; i < i_n; ++i) {
         for (int j = 0; j < i_m; ++j) {
             printf("%d ", out_matrix[i][j]);
         }
         cout<<'\n';
     }
+#endif
+    auto duration = chrono::duration_cast<chrono::milliseconds>(end_timer - start_timer);
+#ifndef TEST_MODE
+    printf("Elapsed time for algorithm is %ld microseconds \n", duration.count());
+#endif
+    cout<<duration.count();
     return 0;
 }

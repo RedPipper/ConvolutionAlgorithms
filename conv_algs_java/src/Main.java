@@ -30,7 +30,7 @@ public class Main {
                 flag=1;
             }
 
-            System.out.println(String.format("Thread %d starts at %d,%d, kLine %d -- %d lines", j, startX, startY, kLine, lines_per_thread + flag));
+//            System.out.println(String.format("Thread %d starts at %d,%d, kLine %d -- %d lines", j, startX, startY, kLine, lines_per_thread + flag));
 
             threads.add(new indexThread(input, kernel, answer, startX, startY, kLine, lines_per_thread + flag));
             threads.get(j).start();
@@ -68,7 +68,7 @@ public class Main {
 
         List<Thread> threads = new ArrayList<>();
         for (int i = 0; i < p; i++) {
-            System.out.println(String.format("Thread %d started between the lines %d and %d", i, startLine, startLine + lines_per_thread + flag ));
+//            System.out.println(String.format("Thread %d started between the lines %d and %d", i, startLine, startLine + lines_per_thread + flag ));
             threads.add(new lineThread(input, kernel, answer, startLine, startLine + lines_per_thread + flag));
             threads.get(i).start();
             startLine = startLine + lines_per_thread + flag ;
@@ -101,7 +101,7 @@ public class Main {
 
         List<Thread> threads = new ArrayList<>();
         for (int i = 0; i < p; i++) {
-            System.out.println(String.format("Thread %d started between the columns %d and %d", i, startColumn, startColumn + columns_per_thread + flag ));
+//            System.out.println(String.format("Thread %d started between the columns %d and %d", i, startColumn, startColumn + columns_per_thread + flag ));
             threads.add(new columnThread(input, kernel, answer, startColumn, startColumn + columns_per_thread + flag));
             threads.get(i).start();
             startColumn = startColumn + columns_per_thread + flag ;
@@ -122,19 +122,10 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Properties prop = new Properties();
-        try{
-            String configFilePath = "src/config.properties";
-            FileInputStream propsInput = new FileInputStream(configFilePath);
-
-            prop.load(propsInput);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
 
         Scanner scanner = null;
         try{
-           File inputFile = new File(prop.getProperty("INPUT_FILE_PATH"));
+           File inputFile = new File(args[2]);
            scanner = new Scanner(inputFile);
         } catch (FileNotFoundException e) {
            throw new RuntimeException(e);
@@ -142,13 +133,14 @@ public class Main {
        int i_n = 0, i_m = 0;
 
 
-       i_n = scanner.nextInt();
-       i_m = scanner.nextInt();
+
+       i_n = scanner.nextInt(10);
+       i_m = scanner.nextInt(10);
        int[][] input = new int[i_n][i_m];
        int[][] answer = new int[i_n][i_m];
        for (int i = 0; i < i_n; i++) {
            for (int j = 0; j < i_m; j++) {
-                input[i][j] = scanner.nextInt();
+                input[i][j] = scanner.nextInt(10);
                 answer[i][j] = 0;
            }
        }
@@ -173,18 +165,33 @@ public class Main {
            System.out.println();
        }
 
-        int p = scanner.nextInt();
+        int p = Integer.parseInt(args[0]);
         System.out.println("--------------------Start compute--------------------");
        //start the algorithm
-       computeIndexedConv(input, kernel, answer, p);
-//        computeLineConv(input, kernel, answer, p);
-//        computeColumnConv(input, kernel, answer, p);
-        for (int i = 0; i < input.length; i++) {
-            for (int j = 0; j < input[0].length; j++) {
-                System.out.print(String.format("%d ", answer[i][j]));
-            }
-            System.out.println();
+        long startTime, endTime;
+        if(args[1].compareTo("indexed") == 0){
+            startTime = System.nanoTime();
+            computeIndexedConv(input, kernel, answer, p);
+            endTime = System.nanoTime();
+        }else if (args[1].compareTo("lined") == 0){
+            startTime = System.nanoTime();
+            computeLineConv(input, kernel, answer, p);
+            endTime = System.nanoTime();
+        }else if(args[1].compareTo("columned") == 0){
+            startTime = System.nanoTime();
+            computeColumnConv(input, kernel, answer, p);
+            endTime = System.nanoTime();
+        }else{
+            System.out.println("No algorithm found. Exiting...");
+            return;
         }
+        System.out.println((float)(endTime - startTime)/1000000);
+//        for (int i = 0; i < input.length; i++) {
+//            for (int j = 0; j < input[0].length; j++) {
+//                System.out.print(String.format("%d ", answer[i][j]));
+//            }
+//            System.out.println();
+//        }
 
     }
 }
