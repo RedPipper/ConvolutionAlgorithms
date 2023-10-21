@@ -1,0 +1,3 @@
+/home/tefan/Facultate/Programare Paralela si Distribuita/Homework/ConvolutionAlgorithms/conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/static_allocation.dir
+/home/tefan/Facultate/Programare Paralela si Distribuita/Homework/ConvolutionAlgorithms/conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/tefan/Facultate/Programare Paralela si Distribuita/Homework/ConvolutionAlgorithms/conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
