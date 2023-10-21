@@ -1,4 +1,7 @@
-public class lineThread extends Thread{
+import static java.lang.Math.max;
+import static java.lang.Math.min;
+
+public class indexThread extends Thread{
 
     int nrOfLines;
     int[][] in_matrix;
@@ -7,7 +10,7 @@ public class lineThread extends Thread{
 
 
     int x,y,kLine;
-    public lineThread(int[][] A, int[][] K, int[][] C, int x, int y, int kLine, int nrOfLines){
+    public indexThread(int[][] A, int[][] K, int[][] C, int x, int y, int kLine, int nrOfLines){
        this.in_matrix = A;
        this.kernel = K;
        this.out_matrix = C;
@@ -33,9 +36,7 @@ public class lineThread extends Thread{
             int sum = 0;
 
             for(int i = 0; i < kernel[0].length;++i){
-                if(compLine >= 0 && compLine < in_matrix.length && startY+i>=0 && startY+i<in_matrix[0].length){
-                    sum += in_matrix[compLine][startY + i] * kernel[kLine][i];
-                }
+                sum += in_matrix[max(0, min(compLine, in_matrix.length - 1))][max(0, min(startY + i, in_matrix[0].length - 1))] * kernel[kLine][i];
             }
 
             out_matrix[x][y] += sum;
