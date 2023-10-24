@@ -172,7 +172,7 @@ int main(int argc, char **argv) {
     int **out_matrix = new int *[i_n];
     for (int i = 0; i < i_n; ++i) {
         in_matrix[i] = new int[i_m];
-        out_matrix[i] = new int[i_n];
+        out_matrix[i] = new int[i_m];
         for (int j = 0; j < i_m; ++j) {
             fin >> in_matrix[i][j];
             out_matrix[i][j] = 0;

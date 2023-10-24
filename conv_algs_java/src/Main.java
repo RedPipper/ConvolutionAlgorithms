@@ -157,17 +157,17 @@ public class Main {
        }
 
        // check for correct read
-        System.out.println("--------------------Read check-----------------------");
-       for (int i = 0; i < k_n; i++) {
+//        System.out.println("--------------------Read check-----------------------");
+/*       for (int i = 0; i < k_n; i++) {
            for (int j = 0; j < k_m; j++) {
                System.out.print(String.valueOf(kernel[i][j]) + ' ');
            }
            System.out.println();
        }
-
+*/
         int p = Integer.parseInt(args[0]);
-        System.out.println("--------------------Start compute--------------------");
-       //start the algorithm
+/*        System.out.println("--------------------Start compute--------------------");
+       //start the algorithm*/
         long startTime, endTime;
         if(args[1].compareTo("indexed") == 0){
             startTime = System.nanoTime();
@@ -185,7 +185,7 @@ public class Main {
             System.out.println("No algorithm found. Exiting...");
             return;
         }
-        System.out.println((float)(endTime - startTime)/1000000);
+        System.out.println((endTime - startTime)/1000);
 //        for (int i = 0; i < input.length; i++) {
 //            for (int j = 0; j < input[0].length; j++) {
 //                System.out.print(String.format("%d ", answer[i][j]));

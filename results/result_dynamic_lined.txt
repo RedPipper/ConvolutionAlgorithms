@@ -1,0 +1,28 @@
+DATAFILE data1.txt
+Result for 1 threads: 117
+Result for 2 threads: 129
+Result for 4 threads: 311
+Result for 8 threads: 420
+Result for 16 threads: 607
+Result for 32 threads: 1038
+DATAFILE data2.txt
+Result for 1 threads: 73115
+Result for 2 threads: 37294
+Result for 4 threads: 20497
+Result for 8 threads: 18748
+Result for 16 threads: 19419
+Result for 32 threads: 19919
+DATAFILE data3.txt
+Result for 1 threads: 6964
+Result for 2 threads: 3934
+Result for 4 threads: 2653
+Result for 8 threads: 2352
+Result for 16 threads: 2474
+Result for 32 threads: 2882
+DATAFILE data4.txt
+Result for 1 threads: 7231
+Result for 2 threads: 3824
+Result for 4 threads: 2264
+Result for 8 threads: 2121
+Result for 16 threads: 2274
+Result for 32 threads: 2790
