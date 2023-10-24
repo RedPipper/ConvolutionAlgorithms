@@ -186,6 +186,7 @@ int main(int argc, char** argv){
 
     fin.close();
     p = (int)strtol(argv[1], nullptr, 10);
+#ifndef TEST_MODE
     cout<<"------------------Read check-----------------\n";
     for (int i = 0; i < k_n; ++i) {
         for (int j = 0; j < k_m; ++j) {
@@ -193,7 +194,6 @@ int main(int argc, char** argv){
         }
         cout<<'\n';
     }
-#ifndef TEST_MODE
     cout<<"------------------Compute start--------------\n";
 #endif
 
@@ -227,10 +227,10 @@ int main(int argc, char** argv){
         cout<<'\n';
     }
 #endif
-    auto duration = chrono::duration_cast<chrono::milliseconds>(end_timer - start_timer);
+    auto duration = chrono::duration_cast<chrono::microseconds>(end_timer - start_timer);
 #ifndef TEST_MODE
-    printf("Elapsed time for algorithm is %ld microseconds \n", duration.count());
+    printf("Elapsed time for algorithm is %f microseconds \n", duration.count());
 #endif
-    cout<<duration.count();
+    cout<<duration.count()<<'\n';
     return 0;
 }

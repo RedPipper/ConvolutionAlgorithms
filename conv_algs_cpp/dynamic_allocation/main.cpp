@@ -225,7 +225,7 @@ int main(int argc, char **argv) {
 
 
 
-    auto duration = chrono::duration_cast<chrono::nanoseconds>(end_timer - start_timer);
+    auto duration = chrono::duration_cast<chrono::microseconds>(end_timer - start_timer);
 
 #ifndef TEST_MODE
     cout << "------------------Compute end----------------\n";
@@ -240,6 +240,6 @@ int main(int argc, char **argv) {
         cout << '\n';
     }
 #endif
-    cout<<duration.count()/1000000.0<<'\n';
+    cout<<duration.count()<<'\n';
     return 0;
 }
