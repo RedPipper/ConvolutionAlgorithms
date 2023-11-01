@@ -4,5 +4,4 @@ project(dynamic_allocation)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(dynamic_allocation
-        main.cpp
-        conv_verify.cpp)
+        main.cpp)

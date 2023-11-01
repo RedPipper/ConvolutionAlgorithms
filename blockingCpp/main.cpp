@@ -35,14 +35,14 @@ computeLinedConvThread(int **in_matrix, int **kernel, int i_n, int i_m, int k_n,
     int* buffer = new int[(endLine - startLine) * i_m];
     for (int i = startLine; i < endLine; ++i) {
         for (int j = 0; j < i_m; ++j) {
-            buffer[(i-startLine) * i_n + j] = computeConv(in_matrix, kernel, i_n, i_m, k_n, k_m, i, j);
+            buffer[(i-startLine) * i_m + j] = computeConv(in_matrix, kernel, i_n, i_m, k_n, k_m, i, j);
         }
     }
 
     thread_barr->arrive_and_wait();
     for (int i = startLine; i < endLine; ++i) {
         for (int j = 0; j < i_m; ++j) {
-            in_matrix[i][j] = buffer[(i-startLine) * i_n + j] ;
+            in_matrix[i][j] = buffer[(i-startLine) * i_m + j] ;
         }
     }
 

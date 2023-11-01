@@ -7,7 +7,7 @@ import java.util.concurrent.CyclicBarrier;
 
 public class Main {
 
-
+    public static CyclicBarrier barrier;
     public static void computeLineConv(int[][] input, int[][] kernel, int p){
         int lines_per_thread = input.length / p;
         int remainder = input.length % p;
@@ -19,7 +19,7 @@ public class Main {
         int startLine = 0 ;
 
         List<Thread> threads = new ArrayList<>();
-        CyclicBarrier barrier = new CyclicBarrier(p);
+        barrier = new CyclicBarrier(p);
         for (int i = 0; i < p; i++) {
 //            System.out.println(String.format("Thread %d started between the lines %d and %d", i, startLine, startLine + lines_per_thread + flag ));
             threads.add(new lineThread(input, kernel, startLine, startLine + lines_per_thread + flag, barrier));
