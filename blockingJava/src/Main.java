@@ -1,7 +1,4 @@
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -63,7 +60,7 @@ public class Main {
        int[][] input = new int[i_n][i_m];
        for (int i = 0; i < i_n; i++) {
            for (int j = 0; j < i_m; j++) {
-                input[i][j] = scanner.nextInt(10);
+                input[i][j] = scanner.nextInt();
            }
        }
 
@@ -85,12 +82,18 @@ public class Main {
        computeLineConv(input, kernel, p);
        endTime = System.nanoTime();
 
-        for (int i = 0; i < i_n; i++) {
-            for (int j = 0; j < i_m; j++) {
-                System.out.print(String.format("%d ", input[i][j]));
-            }
-            System.out.println();
-        }
+       try(FileWriter outputFile = new FileWriter(args[2])){
+           for (int i = 0; i < i_n; i++) {
+               for (int j = 0; j < i_m; j++) {
+                   outputFile.write(String.format("%d ", input[i][j]));
+
+               }
+               outputFile.write('\n');
+           }
+       } catch (IOException e) {
+           throw new RuntimeException(e);
+       }
+
        System.out.println((endTime - startTime)/1000);
 
     }

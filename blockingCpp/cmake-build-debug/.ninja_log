@@ -1,0 +1,4 @@
+# ninja log v5
+1066	1170	1698779812988908174	dynamic_allocation	914bed123cf03cd0
+1	1065	1698779812884907985	CMakeFiles/dynamic_allocation.dir/main.cpp.o	ec7c41717e0d0604
+1	419	1698781391756264549	CMakeFiles/dynamic_allocation.dir/conv_verify.cpp.o	ffdc6ab4f97dbe23
