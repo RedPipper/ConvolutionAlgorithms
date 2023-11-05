@@ -28,21 +28,47 @@ int computeConv(int **in_matrix, int **kernel, int i_n, int i_m, int k_n, int k_
     return sum;
 }
 
-void
-computeLinedConvThread(int **in_matrix, int **kernel, int i_n, int i_m, int k_n, int k_m, int startLine, int endLine,
-                       barrier<>* thread_barr) {
-
-    int* buffer = new int[(endLine - startLine) * i_m];
-    for (int i = startLine; i < endLine; ++i) {
-        for (int j = 0; j < i_m; ++j) {
-            buffer[(i-startLine) * i_m + j] = computeConv(in_matrix, kernel, i_n, i_m, k_n, k_m, i, j);
+int computeNewConv(int** lineBuffers, int** kernel, int k_n, int k_m, int i_m, int pos){
+    int sY = pos - k_m/2;
+    int eY = pos + k_m/2;
+    int sum = 0;
+    for(int i = 0; i < k_n; ++i){
+        for(int j = 0, bJ = sY; j < k_m && bJ <= eY; ++j, ++bJ)
+        {
+            sum += lineBuffers[i][max(0, min(bJ, i_m-1))] * kernel[i][j];
         }
     }
 
+    return sum;
+}
+
+void
+computeLinedConvThread(int **in_matrix, int **kernel, int i_n, int i_m, int k_n, int k_m, int startLine, int endLine,
+                       barrier<>* thread_barr) {
+    int* buffer1 = new int[i_m];
+    int* buffer2 = new int[i_m];
+
+    int* endLineBuffer = new int[i_m];
+    memcpy(endLineBuffer, in_matrix[min(i_n - 1, endLine)], i_m * sizeof(int));
+    memcpy(buffer1, in_matrix[max(0, startLine-1)], i_m * sizeof(int));
+
     thread_barr->arrive_and_wait();
-    for (int i = startLine; i < endLine; ++i) {
-        for (int j = 0; j < i_m; ++j) {
-            in_matrix[i][j] = buffer[(i-startLine) * i_m + j] ;
+
+    memcpy(buffer2, in_matrix[startLine], i_m * sizeof(int));
+    for (int i = startLine; i < endLine ; ++i) {
+        int** lineBuffers;
+        if( i < endLine - 1){
+            lineBuffers = new int*[]{buffer1, buffer2, in_matrix[i+1]};
+        }else{
+            lineBuffers = new int*[]{buffer1, buffer2, endLineBuffer};
+        }
+        for(int j=0; j < i_m;++j){
+            in_matrix[i][j] = computeNewConv(lineBuffers, kernel, k_n, k_m, i_m, j);
+        }
+
+        if(i < endLine-1){
+            memcpy(buffer1, buffer2, i_m * sizeof(int));
+            memcpy(buffer2, in_matrix[i+1], i_m * sizeof(int));
         }
     }
 

@@ -1,12 +1,12 @@
 #!/bin/bash
 
 java_command="java -cp $(pwd)/blockingJava/src/out Main "
-cpp_command="./blockingCppAlg"
+cpp_command="./blockingCpp/main"
 verifier="./verifyAlg"
 echo $(pwd)
-file1="./data/lab2/data1.txt"
-file2="./data/lab2/data2.txt"
-file3="./data/lab2/data3.txt"
+file1="./data/data1.txt"
+file2="./data/data2.txt"
+file3="./data/data3.txt"
 echo "" > results.csv
 echo "Started test for data1.txt..."
 $verifier $file1 "out_correct.txt"

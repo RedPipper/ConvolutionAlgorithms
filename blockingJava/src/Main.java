@@ -86,7 +86,6 @@ public class Main {
            for (int i = 0; i < i_n; i++) {
                for (int j = 0; j < i_m; j++) {
                    outputFile.write(String.format("%d ", input[i][j]));
-
                }
                outputFile.write('\n');
            }
