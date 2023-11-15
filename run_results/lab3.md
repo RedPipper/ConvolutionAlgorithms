@@ -1,3 +1,18 @@
+## Varianta 1
+Logica implementarii poate fi separata in doua moduri:
+1. Master:
+  a. Master-ul trimite la toate workerele prin Bcast matricea de kernel.
+  b. Ulterior, masterul citeste cate i_n/numprocLinii din fisierul de input si le trimite la workerul corespondent
+  c. Dupa trimitere, masterul asteapta de la oricare worker rezultatele si le scrie intr-un buffer
+  d. Dupa ce a primit numproc mesaje, masterul scrie rezultatele din buffer in fisier si termina procesarea
+2. Worker:
+  a. Workerul primeste matricea kernel de la master
+  b. Workerul primeste matricea de input de la master
+  c. Daca id > 1, Trimite prima linie la workerul cu id-1 si asteapta sa primeasca o linie tot de la el
+  d. Daca id < numprocs-1, Trimite ultima linie la workerul cu id+1 si asteapta sa primeasca o linie tot de la el
+  e. Calculeaza rezultatele si le trimite inapoi la master
+
+
 ## Rezultate lab3, varianta 1
 | Measurement type  | Matrix size                | Nr of procs    | Time in microseconds       |
 | -- | ---------------- | ---- | ------- |
