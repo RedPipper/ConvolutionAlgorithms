@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="lab3" targetName="lab3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60b76179-f9ad-45e7-ad8d-bb0be795612f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab1/conv_algs_cpp/dynamic_allocation/.idea/dynamic_allocation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1/conv_algs_cpp/static_allocation/.idea/static_allocation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1/conv_algs_java/LabPPD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab1/conv_algs_java/conv_algs_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/blockingCpp/.idea/blockingCpp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/blockingJava/LabPPD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/blockingJava/conv_algs_java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/blockingCpp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-2a4d955f6a3e89458861.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/cache-v2-b1cdc03cfeef8112bc85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-045469de539180ff3949.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-c805f07d4d1c7d8e1de9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-1e4fc0d25e817da80cc3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4698023c00eceac61769.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-31T19-18-06-0203.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/index-2023-11-01T04-54-06-0619.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/target-dynamic_allocation-Debug-103b36ee539d42258c51.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/target-dynamic_allocation-Debug-62ed4d6da07230726fcb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6f549a7495c37c099964.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-99265b04de7ada3aac9e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/compiler_depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/compiler_depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/compiler_depend.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/conv_verify.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/conv_verify.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/main.cpp.o.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/dynamic_allocation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/cmake-build-debug/dynamic_allocation.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/conv_verify.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/main" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingCpp/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/LabPPD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/conv_algs_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/out/production/conv_algs_java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/out/production/conv_algs_java/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/out/production/conv_algs_java/lineThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/src/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/src/lineThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/src/out/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/src/out/lineThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blockingJava/test_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/.idea/dynamic_allocation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/cache-v2-90fc760d30017e256fce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-186c69087b15b9538692.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-322ea3f4d34b31c4dae3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-21T13-24-50-0852.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/target-dynamic_allocation-Debug-95073e2c7bbe295bbe93.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6f549a7495c37c099964.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/dynamic_allocation.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/cmake-build-debug/dynamic_allocation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/data3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/data4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/dynamic_allocation/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/.idea/static_allocation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/cache-v2-7acd21182f98579d6eb2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-086673bbb216f3c36702.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-4885bd6b7b1328b34775.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/index-2023-10-21T10-38-51-0004.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/target-static_allocation-Debug-7e1c64bc445aa2d661dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6f549a7495c37c099964.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/CMakeFiles/static_allocation.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/cmake-build-debug/static_allocation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/data3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/data4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/static_allocation/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_cpp/temp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/LabPPD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/conv_algs_java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/columnThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/indexThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/lineThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/columnThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/data3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/data4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/indexThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/out/production/conv_algs_java/lineThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/columnThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/data1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/data2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/data3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/data4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/indexThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/lineThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/out/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/out/columnThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/out/indexThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_algs_java/src/out/lineThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conv_verify.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gen_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_dynamic_columned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_dynamic_indexed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_dynamic_lined.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_java_columned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_java_indexed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_java_lined.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_static_columned.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_static_indexed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../results/result_static_lined.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rulare_lab2.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rulare_teste.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../verifyAlg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="3.3" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2YAsLSqJ1yAt4Ukvf2mDl3pkviD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "CMake Application.lab3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/tefan/Facultate/PPD/ConvolutionAlgorithms/lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lab3" type="CMakeRunConfiguration" factoryName="Application" singleton="false" PROGRAM_PARAMS="2 input_file.txt output.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="lab3" TARGET_NAME="lab3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="lab3" RUN_TARGET_NAME="lab3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60b76179-f9ad-45e7-ad8d-bb0be795612f" name="Changes" comment="" />
+      <created>1699979661642</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699979661642</updated>
+      <workItem from="1699979663688" duration="439000" />
+      <workItem from="1699980440584" duration="311000" />
+      <workItem from="1699981111797" duration="23768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

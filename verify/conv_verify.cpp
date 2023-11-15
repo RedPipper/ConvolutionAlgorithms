@@ -43,6 +43,15 @@ int main(int argc, char** argv){
 
     ifstream fin(argv[1]);
     ofstream fout(argv[2]);
+    int k_n, k_m;
+    fin >> k_n >> k_m;
+    int **kernel = new int *[k_n];
+    for (int i = 0; i < k_n; ++i) {
+        kernel[i] = new int[k_m];
+        for (int j = 0; j < k_m; ++j) {
+            fin >> kernel[i][j];
+        }
+    }
 
 
     int i_n, i_m;
@@ -57,16 +66,7 @@ int main(int argc, char** argv){
         }
     }
 
-    int k_n, k_m;
-    fin >> k_n >> k_m;
-    int **kernel = new int *[k_n];
-    for (int i = 0; i < k_n; ++i) {
-        kernel[i] = new int[k_m];
-        for (int j = 0; j < k_m; ++j) {
-            fin >> kernel[i][j];
-        }
-    }
-    fin.close();
+   fin.close();
 
     compute(in_matrix, kernel, i_n, i_m, k_n, k_m);
 
