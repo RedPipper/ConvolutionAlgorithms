@@ -14,6 +14,9 @@
 | n=10000, m=10000  |  16            |  743525           |  920239           |
 
 Complexitatea spatiu a algoritmului este Theta(3*n) pentru fiecare thread, intrucat fiecare retine un numar de 3 array-uri drept buffer.
+La inceput, inainte de bariera, threadul copiaza linia de deasupra intervalului alocat, prima linie din interval si linia de sub intervalul alocat.
+Inainte de a incepe sa calculeze o linie, threadul copiaza in buffer1 buffer2, si in buffer2 linia curenta, pana la final, si face calculele in baza:
+buffer1, buffer2 si liniei urmatoare daca nu se afla pe ultima linie din interval, sau linia endbuffer copiata la inceput.
 
 Observ ca algoritmii ating performante optime la nr de threaduri diferite pentru fiecare caz:
 1. Pentru n=m=1000, performantele sunt cele mai bune cand algoritmul este rulat cu 4 threaduri
