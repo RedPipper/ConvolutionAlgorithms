@@ -1,4 +1,4 @@
-| a  | b                | c    | d       |
+| Measurement type  | Matrix size                | Nr of procs    | Time in microseconds       |
 | -- | ---------------- | ---- | ------- |
 | T1 |  n=1000, m=1000  |  5   |  25642  |
 | T1 |  n=1000, m=1000  |  9   |  18036  |
