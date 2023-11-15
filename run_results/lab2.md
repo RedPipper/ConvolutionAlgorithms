@@ -12,3 +12,13 @@
 | n=10000, m=10000  |  4             |  1054470          |  1178586          |
 | n=10000, m=10000  |  8             |  751617           |  956824           |
 | n=10000, m=10000  |  16            |  743525           |  920239           |
+
+Complexitatea spatiu a algoritmului este Theta(3*n) pentru fiecare thread, intrucat fiecare retine un numar de 3 array-uri drept buffer.
+
+Observ ca algoritmii ating performante optime la nr de threaduri diferite pentru fiecare caz:
+1. Pentru n=m=1000, performantele sunt cele mai bune cand algoritmul este rulat cu 4 threaduri
+2. Pentru n=m=10000, performantele cresc pe masura ce adaugam threaduri.
+
+Legat de implementari, observ ca varianta java este in general mai putin performanta. 
+Insa dependenta performantei fata de marimea datelor de input este mult mai drastica, de multe ori algoritmul secvential fiind mai performant decat cele cu mai multe threaduri. 
+Singurul caz in care beneficiile folosirii de threaduri multiple sunt vizibile este n=m=10000, unde performantele algoritmului scade pe masura ce adaugam mai multe threaduri.
